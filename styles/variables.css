@@ -1,0 +1,7 @@
+:root {
+    --main-white-color: #E3E3E3;
+    --secondary-white-color: rgba(255, 255, 255, .5); 
+    --bg-color: #0F0F0D;
+    --horizontal-accent-gradient: linear-gradient(90deg, rgba(249,0,0,1) 0%, rgba(240,105,22,1) 100%);
+    --vertical-accent-gradient: linear-gradient(180deg, rgba(249,0,0,1) 0%, rgba(240,105,22,1) 100%);
+}
