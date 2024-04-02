@@ -23,18 +23,3 @@ body,
     padding: 0;
     box-sizing: border-box;
 }
-
-button {
-    background-color: transparent;
-    outline: none;
-    border: 2px solid var(--secondary-white-color);
-    border-radius: 10px;
-    max-height: 51px;
-    max-width: 68px;
-
-    min-height: 34px;
-    min-width: 45px;
-
-    width: 10vw;
-    height: 9vh;
-}

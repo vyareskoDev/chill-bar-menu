@@ -285,6 +285,26 @@ footer h4 {
     gap: .5rem;
 }
 
+button {
+    background-color: transparent;
+    outline: none;
+    border: 2px solid var(--secondary-white-color);
+    border-radius: 10px;
+    max-height: 60px;
+    max-width: 68px;
+
+    min-height: 34px;
+    min-width: 45px;
+
+    width: 13vw;
+    height: 9vh;
+}
+
+button img {
+    max-height: 27px !important;
+    max-width: 27px !important;
+}
+
 @media (max-width: 1198px) {
     .footer-content {
         flex-direction: column;
@@ -303,8 +323,8 @@ footer h4 {
     }
 
     button {
-        width: 45px;
-        height: 34px;
+        width: 60px;
+        height: 45px;
     }
 
     main {

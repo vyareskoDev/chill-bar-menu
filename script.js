@@ -28,13 +28,12 @@ function onSearch(e) {
 
         if (productName.includes(value)) {
             product.classList.remove("hidden");
+            productsCount++;
             
             if (productsCount === 1 || productsCount.toString()[productsCount.lenght - 1] === "1") {
-                productsCount++;
                 searchResult.textContent = productsCount + " результат"
             } else {
                 searchResult.textContent = productsCount + " результати"
-                productsCount++;
             }
         } else {
             product.classList.add("hidden");
